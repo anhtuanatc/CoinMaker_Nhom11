@@ -1,0 +1,13 @@
+D:\Btap\Oracle\CoinMaker\CoinMaker\bin\Debug\CoinMaker.exe.config
+D:\Btap\Oracle\CoinMaker\CoinMaker\bin\Debug\CoinMaker.exe
+D:\Btap\Oracle\CoinMaker\CoinMaker\bin\Debug\CoinMaker.pdb
+D:\Btap\Oracle\CoinMaker\CoinMaker\obj\Debug\CoinMaker.csprojResolveAssemblyReference.cache
+D:\Btap\Oracle\CoinMaker\CoinMaker\obj\Debug\CoinMaker.Form1.resources
+D:\Btap\Oracle\CoinMaker\CoinMaker\obj\Debug\CoinMaker.Properties.Resources.resources
+D:\Btap\Oracle\CoinMaker\CoinMaker\obj\Debug\CoinMaker.csproj.GenerateResource.cache
+D:\Btap\Oracle\CoinMaker\CoinMaker\obj\Debug\CoinMaker.csproj.CoreCompileInputs.cache
+D:\Btap\Oracle\CoinMaker\CoinMaker\obj\Debug\CoinMaker.exe
+D:\Btap\Oracle\CoinMaker\CoinMaker\obj\Debug\CoinMaker.pdb
+D:\Btap\Oracle\CoinMaker\CoinMaker\bin\Debug\Newtonsoft.Json.dll
+D:\Btap\Oracle\CoinMaker\CoinMaker\bin\Debug\Newtonsoft.Json.xml
+D:\Btap\Oracle\CoinMaker\CoinMaker\obj\Debug\CoinMaker.csproj.CopyComplete
