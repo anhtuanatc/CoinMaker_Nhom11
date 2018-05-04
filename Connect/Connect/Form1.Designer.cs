@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.data_grid = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
@@ -40,46 +37,21 @@
             this.lb_vhtt = new DevExpress.XtraEditors.LabelControl();
             this.lb_lb24h1 = new DevExpress.XtraEditors.LabelControl();
             this.lb_bcut = new DevExpress.XtraEditors.LabelControl();
+            this.button3 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.btn_udcoin = new DevExpress.XtraEditors.SimpleButton();
+            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
+            this.lb_ngay = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.data_grid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(688, 170);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Update Coin";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(556, 170);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(108, 23);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Update_Global";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(556, 125);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(108, 23);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Chi Tiết";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
             // data_grid
             // 
-            this.data_grid.Location = new System.Drawing.Point(26, 226);
+            this.data_grid.Location = new System.Drawing.Point(26, 263);
             this.data_grid.MainView = this.gridView1;
             this.data_grid.Name = "data_grid";
-            this.data_grid.Size = new System.Drawing.Size(737, 233);
+            this.data_grid.Size = new System.Drawing.Size(763, 233);
             this.data_grid.TabIndex = 11;
             this.data_grid.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -161,11 +133,63 @@
             this.lb_bcut.TabIndex = 18;
             this.lb_bcut.Text = "100 %";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(681, 139);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(108, 23);
+            this.button3.TabIndex = 19;
+            this.button3.Text = "Lịch Sử Coin";
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Location = new System.Drawing.Point(681, 83);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(108, 23);
+            this.simpleButton1.TabIndex = 21;
+            this.simpleButton1.Text = "Lịch Sừ GLoBal";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+            // 
+            // btn_udcoin
+            // 
+            this.btn_udcoin.Location = new System.Drawing.Point(681, 190);
+            this.btn_udcoin.Name = "btn_udcoin";
+            this.btn_udcoin.Size = new System.Drawing.Size(108, 23);
+            this.btn_udcoin.TabIndex = 22;
+            this.btn_udcoin.Text = "UpDate Coin";
+            this.btn_udcoin.Click += new System.EventHandler(this.btn_udcoin_Click);
+            // 
+            // labelControl5
+            // 
+            this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.labelControl5.Appearance.Options.UseFont = true;
+            this.labelControl5.Location = new System.Drawing.Point(26, 232);
+            this.labelControl5.Name = "labelControl5";
+            this.labelControl5.Size = new System.Drawing.Size(47, 19);
+            this.labelControl5.TabIndex = 23;
+            this.labelControl5.Text = "Ngày :";
+            // 
+            // lb_ngay
+            // 
+            this.lb_ngay.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.lb_ngay.Appearance.Options.UseFont = true;
+            this.lb_ngay.Location = new System.Drawing.Point(88, 232);
+            this.lb_ngay.Name = "lb_ngay";
+            this.lb_ngay.Size = new System.Drawing.Size(66, 19);
+            this.lb_ngay.TabIndex = 24;
+            this.lb_ngay.Text = "4-5-2018";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(826, 483);
+            this.ClientSize = new System.Drawing.Size(830, 508);
+            this.Controls.Add(this.lb_ngay);
+            this.Controls.Add(this.labelControl5);
+            this.Controls.Add(this.btn_udcoin);
+            this.Controls.Add(this.simpleButton1);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.lb_bcut);
             this.Controls.Add(this.lb_lb24h1);
             this.Controls.Add(this.lb_vhtt);
@@ -174,9 +198,7 @@
             this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.data_grid);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -188,9 +210,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
         private DevExpress.XtraGrid.GridControl data_grid;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraEditors.LabelControl labelControl1;
@@ -200,6 +219,11 @@
         private DevExpress.XtraEditors.LabelControl lb_vhtt;
         private DevExpress.XtraEditors.LabelControl lb_lb24h1;
         private DevExpress.XtraEditors.LabelControl lb_bcut;
+        private DevExpress.XtraEditors.SimpleButton button3;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton btn_udcoin;
+        private DevExpress.XtraEditors.LabelControl labelControl5;
+        private DevExpress.XtraEditors.LabelControl lb_ngay;
     }
 }
 
