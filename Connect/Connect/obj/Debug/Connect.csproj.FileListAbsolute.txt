@@ -103,7 +103,6 @@ D:\Btap\Oracle\Connect\Connect\bin\Debug\es\DevExpress.Office.v16.2.Core.resourc
 D:\Btap\Oracle\Connect\Connect\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
 D:\Btap\Oracle\Connect\Connect\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
 D:\Btap\Oracle\Connect\Connect\obj\Debug\Connect.exe.licenses
-D:\Btap\Oracle\Connect\Connect\obj\Debug\Connect.QuanLy.resources
 D:\Btap\Oracle\Connect\Connect\obj\Debug\Connect.LsGloBal.resources
 D:\Btap\Oracle\Connect\Connect\bin\Debug\DevExpress.Charts.v16.2.Core.dll
 D:\Btap\Oracle\Connect\Connect\bin\Debug\DevExpress.XtraCharts.v16.2.dll
